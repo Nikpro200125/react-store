@@ -1,0 +1,26 @@
+name: Cypress Tests
+
+on: [push]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node16.5.0-chrome94-ff93
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        working-directory: ./client
+        run: npm install
+      - name: Install server dependencies
+        working-directory: ./server
+        run: npm install
+      - name: Run server
+        working-directory: ./server
+        run: npm run server &
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: ./client
+          browser: chrome
+          start: npm run start

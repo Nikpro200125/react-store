@@ -1,0 +1,18 @@
+.logoks {
+    background: url("/src/assets/images_loginPage/logoks.png") no-repeat center center;
+    width: 353px;
+    height: 353px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.KSks {
+    background: no-repeat center url("/src/assets/images_loginPage/KSks.png");
+    width: 353px;
+    height: 353px;
+}

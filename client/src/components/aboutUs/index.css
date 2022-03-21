@@ -1,0 +1,27 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-aboutUs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    margin-bottom: 10vh;
+}
+
+.leftAboutUs {
+    background-image: url("../../assets/images_mainPage/aboutUs.jpg");
+    width: 341px;
+    height: 341px;
+}
+
+.rightAboutUs {
+    width: 341px;
+    height: 341px;
+    border-radius: 20px;
+    background-color: rgb(203, 203, 229);
+    text-align: center;
+    font-family: "Pattaya", sans-serif;
+}

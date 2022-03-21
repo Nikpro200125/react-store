@@ -1,0 +1,8 @@
+.maincontainer {
+    margin-top: -101px;
+    background: no-repeat center/cover url("../../assets/images_loginPage/fonser.png") fixed;
+}
+
+::selection {
+    background-color: #ef7171;
+}

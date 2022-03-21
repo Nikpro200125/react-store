@@ -1,0 +1,74 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.admin-container {
+    margin-top: -101px;
+    background: no-repeat center/cover url("../../assets/images_loginPage/fonser.png") fixed;
+    min-height: 120vh;
+}
+
+.accordionAdmin {
+    padding: 250px 20vh 0 20vh;
+}
+
+.accordAdmin {
+    margin-bottom: 5vh;
+}
+
+.cupCakeListParam {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.cakeParamListItem {
+    border-radius: 20px;
+    background: #fe8f8f;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.close-btn2 {
+    color: black;
+    font-size: 1em;
+}
+
+.close-btn2:hover {
+    cursor: pointer;
+}
+
+.cardsAccords {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    min-width: 286px;
+}
+
+.cardscontainer {
+    width: 18rem;
+    margin: 0 20px 0 20px;
+}
+
+.cardImageAdminPanel {
+    width: 286px;
+    height: 180px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.descriptionAdminPanel {
+    display: inline-block;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card button {
+    margin: 5px 15px;
+    width: 85px;
+}

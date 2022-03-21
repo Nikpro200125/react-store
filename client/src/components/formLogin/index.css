@@ -1,0 +1,88 @@
+.container-login {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.authorization {
+    font-size: 82px;
+    font-family: "Pattaya", serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.input-field {
+    position: relative;
+    line-height: 50px;
+}
+
+label {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    transition: 0.2s all;
+    cursor: text;
+    font-size: 33px;
+    font-family: "Pattaya", serif;
+    color: rgb(0, 0, 0);
+    padding-left: 16px;
+}
+
+input.formLogin {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    width: 485px;
+    height: 65px;
+    background-color: #FCD2D1;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+input.formLogin:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    background-color: #FCD2D1;
+    border: none;
+    outline: none;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    font-size: 20px;
+    top: -18px;
+}
+
+.container-center {
+    text-align: center;
+}
+
+.cupcake {
+    background: #FCD2D1 no-repeat center / 43% url("/src/assets/images_loginPage/cupcake.png");
+}
+
+.loginFormButton {
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    width: 142px;
+    height: 54px;
+}
+
+.loginFormButton:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: #FCD2D1 no-repeat center / 42% url("/src/assets/images_loginPage/cupcake.png");
+}
+
+.loginFormButton:disabled {
+    background: #939393 no-repeat center / 42% url("/src/assets/images_loginPage/cupcake.png");
+}

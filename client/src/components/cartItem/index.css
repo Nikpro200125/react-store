@@ -1,0 +1,29 @@
+.cartItemDiv {
+    width: 70%;
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid #8c8b8b;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cartItemImage {
+    background: no-repeat center/cover;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.deleteItemButton:hover {
+    cursor: pointer;
+}
+
+.cartItemImageCupcake {
+    background: no-repeat center/contain url("../../assets/images_loginPage/cupcake.png");
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}

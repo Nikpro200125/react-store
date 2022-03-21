@@ -1,0 +1,7 @@
+{
+  "DB_uri": "mongodb+srv://testUser:cKTSzEkXXEenKIyR@cluster0.ic116.mongodb.net/app?retryWrites=true&w=majority",
+  "PORT": 80,
+  "SECRET": "cKTSzEkXXEenKIyR",
+  "BOT_LINK": "https://api.telegram.org/bot5058263008:AAH5YxlBgiD8yW5_8U0J4YksjQB6goI8IHc/sendMessage",
+  "BASE_URL": "https://firebasestorage.googleapis.com/v0/b/kates-sweets.appspot.com/o/"
+}

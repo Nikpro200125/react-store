@@ -1,0 +1,7 @@
+.cart {
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    margin-top: 101px;
+    padding-top: 50px;
+}

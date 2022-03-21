@@ -1,0 +1,10 @@
+/server/node_modules/
+/client/node_modules/
+/package-lock.json
+/client/build/
+/.idea/
+/client/.idea/
+/server/.idea/
+/client/.idea/workspace.xml
+/server/images/
+/client/coverage/

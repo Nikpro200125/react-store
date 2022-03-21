@@ -1,0 +1,4 @@
+.cartcontainer {
+    background: no-repeat center/cover url("../../assets/images_loginPage/fonser.png") fixed;
+    min-height: 120vh;
+}
