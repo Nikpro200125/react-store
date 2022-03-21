@@ -1,7 +1,7 @@
 # Kates-Sweets
 ## Находится в разработке
-### Ссылка на сайт [открыть тык](http://3.123.134.226)
-### Ссылка на процесс разработки макета https://www.figma.com/file/NskHWrMcEdtZgqcbH4scSj/test
+<!-- ### Ссылка на сайт [открыть тык](http://3.123.134.226) -->
+<!-- ### Ссылка на процесс разработки макета https://www.figma.com/file/NskHWrMcEdtZgqcbH4scSj/test -->
 
 ## Available Scripts
 
